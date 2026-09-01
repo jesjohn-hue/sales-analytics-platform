@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+.local/
+.postgres/
+
+# Environment and secrets
+.env
+.streamlit/secrets.toml
+
+# Generated data
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+
+# Local BI and database artifacts
+*.pbix
+*.hyper
+*.sqlite
+*.db
